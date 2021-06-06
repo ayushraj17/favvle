@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98.055" height="27" viewBox="0 0 98.055 27">
+  <g id="Group_22" data-name="Group 22" transform="translate(-501.945 -320)">
+    <path id="Path_4" data-name="Path 4" d="M13.5,0h63a13.5,13.5,0,0,1,0,27h-63C6.044,27-8.283,15.028-8.053,13.233S6.044,0,13.5,0Z" transform="translate(510 320)" fill="rgba(255,255,255,0.8)"/>
+    <text id="Drag_to_sort" data-name="Drag to sort" transform="translate(522 339)" fill="#2b2525" font-size="13" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.004em"><tspan x="0" y="0">Drag to sort</tspan></text>
+  </g>
+</svg>

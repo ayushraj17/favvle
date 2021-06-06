@@ -1,0 +1,716 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, .landingPage-page, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.landingPage-page {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS AutoReset */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+html, .landingPage-page {
+	overflow-x: hidden;
+}
+
+.landingPage-page::-webkit-scrollbar {
+  display: none;
+}
+
+.landingPage-page {
+	font-family: 'Montserrat', sans-serif;
+	/*background-image: linear-gradient(to top, #F7F3F3, #157E75, #85CDC0, #E2F7F0, #E2F7F0, #15484D);*/
+	/*background-image: url('../Images/landing-page/bg-lg-2.svg');*/
+	background-image: url('../Images/home/bg-lg-2.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+.landingPage-page .navbar .nav-link {
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.landingPage-page .hero-txt {
+	position: relative;
+	letter-spacing: 3px;
+	z-index: 3 !important;
+}
+
+.landingPage-page .desc-p {
+	font-family: "Helvetica", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 33px;
+	text-align: center;
+	max-width: 80%;
+}
+
+.landingPage-page .desc-x {
+	line-height: 27px;
+
+}
+
+.landingPage-page .desc-two {
+	font-family: "Helvetica", sans-serif;
+	max-width: 90%;
+	opacity: 1 !important;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.landingPage-page .g-one {
+	margin-top: -200px;
+}
+
+.landingPage-page .imgdesc-one {
+	margin-top: -50px;
+}
+
+.landingPage-page .g-two {
+	margin-top: -700px !important;
+}
+
+.landingPage-page .imgdesc-two {
+	margin-bottom: -680px;
+}
+
+.landingPage-page .g-three {
+	margin-top: 200px !important;
+}
+
+
+.landingPage-page .desc-footer {
+	font-family: 'Helvetica', sans-serif !important;
+	font-size: 20px;
+	font-weight: 400;
+	opacity: .7;
+	line-height: 33px;
+	margin-top: 100px;
+}
+
+.landingPage-page .navbar-nav {
+	width: 100% !important;
+}
+
+
+.landingPage-page .option-link {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	opacity: .7;
+}
+
+.landingPage-page .option-link:hover {
+	color: white;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.landingPage-page .hero {
+	position: relative;
+}
+
+.landingPage-page .hero .img-absol.four {
+	position: absolute;
+	left: -200px;
+	bottom: -140px;
+	opacity: 1;
+	z-index: 2;
+}
+
+.landingPage-page .hero .img-absol.three {
+	position: absolute;
+	top: -10px;
+	right: -200px;
+	opacity: 1;
+	z-index: 2;
+}
+
+.landingPage-page .hero h3 {
+	font-weight: 600;
+	font-size: 45px;
+	z-index: 3;
+}
+
+.landingPage-page .hero p {
+	font-family: 'Helvetica', sans-serif;
+	z-index: 3;
+	font-size: 25px;
+	font-weight: 400;
+	opacity: .7;
+	margin-top: 20px;
+}
+
+.landingPage-page .col-sp h3 {
+	font-weight: 600;
+	font-size: 26px;
+	max-width: 80%;
+	margin-top: 50px;
+}
+
+.landingPage-page .col-sp p {
+	max-width: 80%;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	opacity: .7;
+	margin-top: 20px;
+	margin-bottom: 70px;
+}
+
+.landingPage-page .input-search {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 23px;
+	color: #D7D7D7;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #F18B6D !important;
+	width: 75%;
+}
+
+.landingPage-page .img-hero {
+	position: static;
+}
+
+.landingPage-page .btn-start {
+	background-image: linear-gradient(to top, #AD3C3B, #F18B6D);
+	border-radius: 35px;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	padding: 10px 42px 10px 42px;
+	color: white;
+	border: 1px solid white;
+	font-size: 19px;
+	margin-top: 55px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+}
+
+.landingPage-page .btn-front {
+	position: relative;
+	z-index: 3;
+}
+
+.landingPage-page .btn-start.mt-t {
+	margin-top: 70px;
+}
+
+.landingPage-page .btn-login {
+	background-image: linear-gradient(to top, #AD3C3B, #F18B6D);
+	border-radius: 10px;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	padding: 10px 20px 10px 20px;
+	color: white;
+	border: none;
+	font-size: 18px;
+	margin-top: 30px !important;
+}
+
+a.landingPage-page .btn-login:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.landingPage-page .why-ranked {
+	margin-top: 80px;
+	position: relative;
+}
+
+.landingPage-page .why-ranked .two {
+	/*min-width: 700px;*/
+}
+
+.landingPage-page .img-absol {
+	position: absolute;
+	z-index: -1;
+	opacity: .3;
+}
+
+.landingPage-page .img-absol.one {
+	top: -80px;
+	left: -150px;
+}
+
+.landingPage-page .img-absol.two {
+	bottom: 80px;
+	right: -150px;
+}
+
+.landingPage-page h2.header-text-blue {
+	opacity: .8;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 60px;
+}
+
+.landingPage-page h2.header-text {
+	opacity: 1;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 44px;
+	margin-top: 130px;
+	margin-bottom: 60px;
+}
+
+
+.landingPage-page h2.header-text-two {
+	opacity: 1;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #154A4E;
+	font-size: 44px;
+	margin-top: 130px ;
+	margin-bottom: 60px ;
+}
+
+.landingPage-page .heading-two {
+	opacity: .7;
+	color: white !important;
+}
+
+.landingPage-page h2.header-text-blue {
+	color: #154A4E;
+	opacity: .7;
+}
+
+.landingPage-page .why-ranked h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.landingPage-page .why-ranked h6 {
+	font-family: 'Helvetica';
+	font-size: 20px;
+	margin-top: 30px;
+	opacity: .7;
+	color: #FFF;
+}
+
+.landingPage-page .why-ranked p {
+	font-family: 'Helvetica';
+	font-size: 20px;
+	margin-top: 40px;
+}
+
+.landingPage-page .customize p {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	opacity: .7;
+	z-index: 1;
+	margin-top: 20px;
+}
+
+.landingPage-page .customers {
+	margin-top: 100px;
+}
+
+.landingPage-page .stacked-cards {
+	margin-top: 100px !important;
+} 
+
+.landingPage-page .stacked-cards .cardd {
+	background-image: url('../Images/home/cust-bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	min-width: 350px;
+	display: flex;
+	justify-content: center;
+	transform: scale(1.landingPage-page .05);
+	background-color: #154A4E;
+	border-radius: 20px;
+}
+
+.landingPage-page .stacked-cards .cardd p {
+	font-family: 'Helvetica';
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.landingPage-page .stacked-cards .cardd h6 {
+	font-family: 'Helvetica';
+	font-size: 16px;
+	max-width: 150px;
+	color: white;
+	margin-top: 60px;
+	text-align: center;
+}
+
+.landingPage-page .bg-cust {
+	position: absolute;
+}
+
+.landingPage-page .stacked-cards .cardd .rounded-circle {
+	border: 10px solid #F18B6D;
+	position: absolute;
+	top: -100px;
+	max-height: 150px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.landingPage-page .active-item {
+	border: 3px solid #E9745D;
+	box-shadow: 2px 2px grey;
+}
+
+.landingPage-page footer {
+	margin-top: 100px;
+	margin-bottom: 15px;
+}
+
+.landingPage-page footer p {
+	color: white;
+	font-family: 'Helvetica';
+	font-size: 16px;
+	opacity: .5;
+}
+.landingPage-page .col-card {
+	margin: 0 10px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.landingPage-page .col-card .card {
+	background-color: #79A9A6;
+	color: white;
+	max-height: 200px;
+	border-radius: 0;
+	border: none;
+	height: 185px;
+	width: 120px;
+}
+
+.landingPage-page .col-card .card-img-top {
+	height: 150px !important;
+}
+
+.landingPage-page .col-card .card-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.landingPage-page .col-card h5 {
+	text-align: center;
+	font-family: 'Helvetica';
+	font-size: 14px;
+	font-weight: lighter;
+	min-width: 120px;
+}
+
+.landingPage-page .col-card p.card-text {
+	font-family: 'Helvetica';
+	font-size: 10px;
+	font-weight: lighter;
+	color: white;
+	min-width: 100px;
+	text-align: center;
+	margin-top: -10px;
+}
+
+.landingPage-page .col-card .txt-identifier {
+	color: white;
+	opacity: .7;
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 26px;
+	letter-spacing: 0.3px;
+	margin-top: 18px;
+}
+
+.landingPage-page .btn-post {
+	margin-top: 45px !important;
+	margin-bottom: 30px !important;
+	z-index: 9999;
+	background-image: linear-gradient(to top, #AD3C3B, #F18B6D);
+	border-radius: 35px;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	padding: 10px 42px 10px 42px;
+	color: white;
+	border: 1px solid white;
+	font-size: 19px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+}
+
+.landingPage-page .inner-bg .container {
+	margin-top: 20px !important;
+	background-color: #298C82;
+	border-radius: 30px;
+	padding: 30px;
+}
+
+.landingPage-page .inner-bg h2, .landingPage-page .inner-bg h3 {
+	font-family: 'Monstserrat', sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.landingPage-page .inner-bg .max-p {
+	max-width: 550px;
+	text-align: center;
+}
+
+.landingPage-page .inner-bg p {
+	font-family: 'Helvetica';
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.landingPage-page .row-movie {
+	background-color: #298C82;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.landingPage-page .row-movie .img-logo {
+	max-height: 100px;
+}
+
+.landingPage-page .col-movie h4 {
+	font-family: 'Monstserrat', sans-serif;
+	font-size: 24px;
+	opacity: .7;
+	color: white;
+	margin: 10px 0;
+}
+
+.landingPage-page .row-movie {
+	border-radius: 30px;
+}
+
+@media (max-width: 576px) {
+	.landingPage-page {
+		background-image: url('../Images/home/bg-std.png');
+	}
+
+	.landingPage-page .img-hero {
+		position: absolute;
+		margin-top: -200px;
+		right: -150px;
+		z-index: -3;
+	}
+
+	.landingPage-page .header-text-two {
+		margin-top: -30px !important;
+		margin-bottom: 200px !important;
+		color: white !important;
+	}
+
+	.landingPage-page .hero h3 {
+		font-size: 36px;
+		margin-top: 30px;
+		z-index: 1;
+	}
+
+	.landingPage-page .why-ranked {
+		color: white;
+	}
+
+	.landingPage-page .customize p {
+		font-family: 'Helvetica', sans-serif;
+		font-size: 20px;
+		font-weight: 400;
+		opacity: .7;
+		z-index: 1;
+		margin-top: 20px;
+	}
+
+	.landingPage-page .input-search {
+		margin-top: 60px;
+	}
+
+	.landingPage-page .why-ranked {
+		margin-top: 80px;
+	}
+
+	.landingPage-page h2.header-text {
+		margin-top: -30px !important;
+		margin-bottom: 0px !important;
+	}
+
+	.landingPage-page .why-ranked .two {
+		min-width: 450px !important;
+	}
+
+	.landingPage-page .stacked-cards {
+		margin-top: 150px !important;
+	}
+
+	.landingPage-page .col-card {
+		margin: 0 4px;
+		margin-top: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.landingPage-page .col-card h5 {
+		text-align: center;
+		font-family: 'Helvetica';
+		font-size: 10px;
+		font-weight: lighter;
+		min-width: 50px;
+	}
+
+	.landingPage-page .col-card p {
+		font-family: 'Helvetica';
+		font-size: 10px;
+		font-weight: lighter;
+		color: white;
+		min-width: 100px;
+		text-align: center;
+		margin-top: -10px;
+	}
+
+	.landingPage-page .col-card .txt-identifier {
+		color: white;
+		opacity: .7;
+		font-family: 'Helvetica';
+		font-weight: bold;
+		font-size: 20px;
+		margin-top: 10px;
+	}
+
+	.landingPage-page .row-movie {
+		border-radius: 0px;
+	}
+
+	.landingPage-page .col-card .card {
+		background-color: #79A9A6;
+		color: white;
+		max-height: 200px;
+		border-radius: 0;
+		border: none;
+		height: 100px;
+		width: 60px;
+	}
+
+	.landingPage-page .col-card .card-img-top {
+		height: 75px !important;
+	}
+
+	.landingPage-page .col-card h5 {
+		font-size: 10px !important;		
+		min-width: 70px;
+	}
+
+	.landingPage-page .g-three {
+		margin-top: -20px !important;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+	.landingPage-page .g-two {
+		margin-top: -700px !important;
+	}
+
+	.landingPage-page .imgdesc-two {
+		margin-left: -300px !important;
+	}
+
+	.landingPage-page .col-card .card {
+		background-color: #79A9A6;
+		color: white;
+		max-height: 200px;
+		border-radius: 0;
+		border: none;
+		height: 155px;
+		width: 100px;
+	}
+
+	.landingPage-page h2.header-text {
+		margin-top: 20px !important;
+		margin-bottom: 0px !important;
+	}
+
+	.landingPage-page h2.desc-two {
+	}
+
+	.landingPage-page .col-card .card-img-top {
+		height: 130px !important;
+	}
+
+
+	.landingPage-page .header-text-two {
+		margin-top: -10px !important;
+		margin-bottom: 220px !important;
+	}
+
+	.landingPage-page .g-three {
+		margin-top: -10px !important;
+	}
+}

@@ -1,0 +1,331 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, .postPreviewGIF-page, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.postPreviewGIF-page {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS AutoReset */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+html, .postPreviewGIF-page {
+	overflow-x: hidden;
+}
+
+.postPreviewGIF-page::-webkit-scrollbar {
+  display: none;
+}
+
+.postPreviewGIF-page {
+	font-family: 'Montserrat', sans-serif;
+	/*background-image: linear-gradient(to top, #F7F3F3, #157E75, #85CDC0, #E2F7F0, #E2F7F0, #15484D);*/
+	background-image: url('../Images/pricing/bg-lg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+.postPreviewGIF-page .navbar .nav-link {
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.postPreviewGIF-page .option-lk {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	opacity: .7;
+	margin-right: 40px;
+}
+
+.postPreviewGIF-page .option-lk:hover {
+	color: white;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.postPreviewGIF-page .inner-content .container {
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+	border-radius: 30px 30px 0 0;
+}
+
+.postPreviewGIF-page .inner-content h2 {
+	color: #154A4E;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.postPreviewGIF-page .inner-content p {
+	color: #154A4E;
+	font-family: 'Helvetica';
+	font-size: 18px;
+	font-weight: lighter;
+	max-width: 60%;
+	text-align: center;
+}
+
+.postPreviewGIF-page .col-movie {
+	background-color: #298C82;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 30px 10px;
+}
+
+.postPreviewGIF-page .col-movie h4 {
+	color: white;
+	opacity: .7;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+
+.postPreviewGIF-page .btn-post {
+	background-image: linear-gradient(to top, #AD3C3B, #F18B6D);
+	border-radius: 10px;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	padding: 8px 50px 8px 50px;
+	color: white;
+	border: none;
+	font-size: 18px;
+	margin-top: 20px !important;
+}
+
+.postPreviewGIF-page .inner-bg .container {
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+	border-radius: 30px 30px 0 0;
+}
+
+.postPreviewGIF-page .inner-bg h2, .postPreviewGIF-page .inner-bg h3 {
+	font-family: 'Monstserrat', sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.postPreviewGIF-page .inner-bg .max-p {
+	max-width: 550px;
+	text-align: center;
+}
+
+.postPreviewGIF-page .inner-bg p {
+	font-family: 'Helvetica';
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.postPreviewGIF-page .row-movie {
+	background-color: #298C82;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.postPreviewGIF-page .row-movie .img-logo {
+	width: 220px !important;
+}
+
+.postPreviewGIF-page .row-movie h4 {
+	font-family: 'Monstserrat', sans-serif;
+	font-size: 18px;
+	opacity: .7;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+.postPreviewGIF-page .row-movie {
+	position: relative;
+}
+
+.postPreviewGIF-page .row-info {
+	position: absolute;
+	top: 200px;
+	left: 420px;
+}
+
+.postPreviewGIF-page .col-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.postPreviewGIF-page h2.info-num {
+	font-size: 108px !important;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255, 255, 255, .7);
+}
+
+.postPreviewGIF-page h2.info-title {
+	font-size: 30px !important;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255, 255, 255, 1);
+}
+
+.postPreviewGIF-page h2.info-year {
+	font-size: 22px !important;
+	font-weight: lighter;
+	font-family: 'Helvetica';
+	color: rgba(255, 255, 255, .8);
+}
+
+.postPreviewGIF-page .inner-bg .txt-green {
+	opacity: .7;
+}
+
+.postPreviewGIF-page .inner-bg p.txt-green {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.postPreviewGIF-page .inner-bg {
+	padding-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+	.postPreviewGIF-page {
+		background-image: url('../Images/profile/bg-usual.png');
+	}
+
+	.postPreviewGIF-page .row-movie h4 {
+		color: white;
+		opacity: .7;
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		font-size: 22px;
+		margin-bottom: 30px;
+	}
+
+	.postPreviewGIF-page .inner-content {
+		margin-top: 20px;
+	}
+
+	.postPreviewGIF-page .inner-bg {
+		background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+		border-radius: 30px 30px 0 0;
+	}
+
+	.postPreviewGIF-page .inner-bg .txt-green {
+		color: #154A4E;
+		text-align: center;
+		max-width: 50%;
+	}
+
+	.postPreviewGIF-page .row-info {
+		position: absolute;
+		top: 150px;
+		left: 10px;
+	}
+
+	.postPreviewGIF-page .row-movie {
+		margin-top: 4px;
+		padding-bottom: 20px;
+	}
+
+	.movie-cover {
+		max-width: 70%;
+		margin-top: -30px;
+	}
+
+
+	.postPreviewGIF-page .btn-post {
+		background-image: linear-gradient(to top, #AD3C3B, #F18B6D);
+		border-radius: 10px;
+		font-weight: 20px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		padding: 7px 30px 7px 30px;
+		color: white;
+		border: none;
+		font-size: 18px;
+		margin-top: 20px !important;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 750px) {
+	.postPreviewGIF-page .row-info {
+		position: absolute;
+		top: 230px;
+		left: 300px;
+	}
+}
+
+@media (min-width: 750px) and (max-width: 991px) {
+	.postPreviewGIF-page .row-info {
+		position: absolute;
+		top: 230px;
+		left: 20px;
+	}
+}
+
+@media (min-width: 991px) and (max-width: 1096px) {
+	.postPreviewGIF-page .row-info {
+		position: absolute;
+		top: 210px;
+		left: 350px;
+	}
+}
+
+@media (min-width: 1096px) and (max-width: 1200px) {
+	.postPreviewGIF-page .row-info {
+		position: absolute;
+		top: 230px;
+		left: 350px;
+	}
+}

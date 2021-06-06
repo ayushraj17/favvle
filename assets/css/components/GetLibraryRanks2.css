@@ -1,0 +1,268 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, .glr-sm, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.glr-sm {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS AutoReset */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap'); */
+
+.glr-sm .col-card-sm {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 22.5%;
+}
+
+.glr-sm .col-card-sm .card {
+	background-color: #79A9A6;
+	color: white;
+    
+	width: 70px !important;
+	border-radius: 0;
+}
+
+.glr-sm .col-card-sm .card-img-top {
+	height: 85px;
+}
+
+.glr-sm .col-card-sm .card-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.glr-sm .col-card-sm h5 {
+	text-align: center;
+	font-family: 'Helvetica';
+	font-size: 12px;
+	font-weight: lighter;
+	width: 70px;
+    margin: 0 !important;
+}
+
+.glr-sm .col-card-sm p.card-text {
+	font-family: 'Helvetica';
+	font-size: 10px;
+	font-weight: lighter;
+	color: white;
+	min-width: 100px;
+	text-align: center;
+}
+
+.glr-sm .col-card-sm .txt-identifier {
+	color: white;
+	opacity: .7;
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.3px;
+}
+
+.glr-sm .popup {
+	position: absolute;
+	top: 420px !important;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	display: flex;
+	height: 100vh !important;
+	justify-content: center;
+	align-items: center;
+}
+
+.glr-sm .popup-content {
+	width: 450px;
+	height: 240px;
+	z-index: 10000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	background: #EAF8F8;
+	box-shadow: 11px 13px 28px 3px rgba(34, 56, 56, 0.66);
+	border-radius: 23px;
+}
+
+.glr-sm .popup-content h4 {
+	font-family: "Montserrat", sans-serif;
+	color: #154A4E;
+	margin-top: -20px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 1.18693px;
+
+	color: #154A4E;
+
+	mix-blend-mode: normal;
+	opacity: 0.75;
+}
+
+.glr-sm .popup-content h5 {
+	margin-top: 30px;
+	font-family: "Helvetica";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+
+	text-align: center;
+	letter-spacing: 0.327321px;
+
+	color: #154A4E;
+
+	mix-blend-mode: normal;
+	opacity: 0.7;
+}
+
+.glr-sm .popup-content .btn-popup {
+	background-image: linear-gradient(to top, #AD3C3B, #F18B6D);
+	border-radius: 35px;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	padding: 10px 50px 10px 50px;
+	color: white;
+	border: 1px solid white;
+	font-size: 19px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+}
+
+.glr-sm .popup-content .btn-close {
+	position: absolute;
+
+	top: -70px;
+	right: -200px;
+
+	border-radius: 50%;
+	/*background-color: rgba(255, 255, 255, 0.4);*/
+	/* background-image: url('../Images/postpreview/btn-close.svg'); */
+	background-size: 30px 30px !important;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	display: flex;
+	z-index: 10001;
+	position: relative;
+	justify-content: center;
+}
+
+
+@media (min-width: 380px) and (max-width: 440px) {
+	.glr-sm .popup-content .btn-close {
+		position: absolute;
+		top: -17px;
+		right: -170px;
+	}
+} 
+@media (min-width: 270px) and (max-width: 380px) {
+	.glr-sm .popup-content .btn-close {
+		position: absolute;
+		top: -17px !important;
+		right: -140px !important;
+
+	}
+} 
+
+.glr-sm .popup-content .button-g {
+	margin-top: 40px !important;
+	margin-bottom: -30px !important;
+}
+
+.glr-sm .popup-content .btn-popup2 {
+	padding: 10px 44px 10px 44px !important;
+	border-radius: 35px;
+	border: 2px solid white;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 19px;
+	color: white;
+	box-sizing: border-box;
+
+	background: #BAD7D5;
+	border: 2px solid #FFFFFF;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .glr-sm .col-card-sm .card {
+        background-color: #79A9A6;
+        color: white;
+        
+        width: 120px !important;
+        border-radius: 0;
+    }
+
+    .glr-sm .col-card-sm .card-img-top {
+        height: 145px;
+    }
+
+    .glr-sm .col-card-sm .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .glr-sm .col-card-sm h5 {
+        text-align: center;
+        font-family: 'Helvetica';
+        font-size: 12px;
+        font-weight: lighter;
+        width: 70px;
+        margin: 0 !important;
+    }
+}

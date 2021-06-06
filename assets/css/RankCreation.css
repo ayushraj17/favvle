@@ -1,0 +1,781 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, .rankCreation-page, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.rankCreation-page {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS AutoReset */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+html, .rankCreation-page {
+	overflow-x: hidden;
+	position: relative;
+}
+
+.rankCreation-page::-webkit-scrollbar {
+  display: none;
+}
+
+.rankCreation-page {
+	font-family: 'Montserrat', sans-serif;
+	/*background-image: linear-gradient(to top, #F7F3F3, #157E75, #85CDC0, #E2F7F0, #E2F7F0, #15484D);*/
+	background-image: url('../Images/categories/bg-lg-2.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	position: relative;
+}
+
+.rankCreation-page .navbar .nav-link {
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.rankCreation-page .options {
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+
+.rankCreation-page .img-opline {
+	margin-top: -40px;
+	margin-left: -15px;
+	margin-right: -25px;
+}
+
+.rankCreation-page .options p {
+	opacity: .8;
+	font-family: 'Helvetica';
+	font-size: 14px;
+}
+
+.rankCreation-page .option-link {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	opacity: .7;
+}
+
+.rankCreation-page .op-rankCreation, .rankCreation-page .op-customization {
+	margin-top: 9px;
+}
+
+.rankCreation-page .col-icon-items {
+	position: relative;
+}
+
+.rankCreation-page .col-icon-items h5 {
+	opacity: .8;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	line-height: 22px;
+	letter-spacing: 1.06824px;
+}
+
+@media (min-width: 1200px) {
+	.rankCreation-page .col-icon-items h5 {
+		margin-top: -330px;
+	}
+}
+
+@media (min-width: 996px) and (max-width: 1200px) {
+	.rankCreation-page .col-icon-items h5 {
+		margin-top: -270px;
+		margin-bottom: 30px;
+	}
+
+	.rankCreation-page .col-icon-items h6 {
+		margin-bottom: 50px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 996px) {
+	.rankCreation-page .col-icon-items h5 {
+		margin-top: -190px;
+		margin-bottom: 0px;
+	}
+
+	.rankCreation-page .col-icon-items h6 {
+		margin-bottom: 30px !important;
+	}
+}
+
+@media (min-width: 465px) and (max-width: 576px) {
+	.rankCreation-page .col-icon-items h5 {
+		margin-top: -220px;
+		margin-bottom: 0px;
+	}
+
+	.rankCreation-page .col-icon-items h6 {
+		margin-bottom: 30px !important;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.rankCreation-page .search-row {
+		margin-top: -50px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+	.rankCreation-page .img-bg-rc {
+		margin-top: 40px;
+	}
+}
+
+@media (min-width: 380px) and (max-width: 465px) {
+	.rankCreation-page .col-icon-items h5 {
+		margin-top: -180px;
+		margin-bottom: 0px;
+	}
+
+	.rankCreation-page .col-icon-items h6 {
+		margin-bottom: 30px !important;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.rankCreation-page .col-icon-items h5 {
+		margin-top: -140px;
+		margin-bottom: 0px;
+	}
+
+	.rankCreation-page .col-icon-items h6 {
+		margin-bottom: 30px !important;
+	}
+
+	.rankCreation-page .img-rc-icon {
+		max-width: 70%;
+	}
+}
+
+
+.rankCreation-page .col-icon-items h6 {
+	margin-bottom: 70px;
+	opacity: .8;
+	font-family: 'Helvetica';
+	font-size: 16px;
+}
+
+.rankCreation-page .img-rc-icon {
+	margin-bottom: 90px;
+}
+
+.rankCreation-page .img-bg-rc {
+	max-width: 90%;
+}
+
+.rankCreation-page .option-link {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.rankCreation-page .option-link:hover {
+	color: white;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.rankCreation-page .inner-content .container {
+	/*background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));*/
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.377568), rgba(255, 255, 255, 0.0001));
+	border-radius: 30px 30px 0 0;
+}
+
+.rankCreation-page .btn-close {
+	border-radius: 50%;
+	/*background-color: rgba(255, 255, 255, 0.4);*/
+	background-image: url('../Images/postpreview/btn-info.svg');
+	background-size: 30px 30px !important;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px !important;
+	cursor: pointer;
+}
+
+.rankCreation-page .inner-content h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #154A4E;
+	mix-blend-mode: normal;
+	opacity: 0.75;
+}
+
+.rankCreation-page .inner-content p {
+	color: #154A4E;
+	font-family: 'Helvetica';
+	font-size: 16px;
+}
+
+.rankCreation-page .inner-content p.desc-p {
+	color: #154A4E;
+	font-family: 'Helvetica';
+	opacity: .6;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 25px !important;
+	max-width: 65%;
+
+	opacity: 0.5;
+}
+
+.rankCreation-page .inner-content h6 {
+	color: #154A4E;
+	font-family: 'Helvetica';
+	opacity: .7;
+	font-size: 16px;
+	margin-top: 25px !important;
+	width: 80%;
+}
+
+.rankCreation-page .card-sm {
+	background-color: white;
+	border-radius: 30px;
+	padding: 10px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	max-height: 530px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.rankCreation-page .card-sm.lg {
+	padding: 40px;
+	max-height: 680px;
+	transform: scale(1.05);
+}
+
+.rankCreation-page .card-sm h4 {
+	color: #636363;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.rankCreation-page .card-sm h3 {
+	color: #636363;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+.rankCreation-page .ls-group {
+	margin-bottom: 150px;
+}
+
+.rankCreation-page .list {
+	display: flex;
+	align-items: center;
+	font-family: 'Helvetica';
+	font-size: 16px;
+	font-weight: lighter;
+	margin-top: 40px;
+}
+
+.rankCreation-page .list img {
+	margin-right: 10px;
+}
+
+.rankCreation-page .btn-login {
+	background-image: linear-gradient(to top, #AD3C3B, #F18B6D);
+	border-radius: 35px;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	padding: 7px 55px 7px 55px;
+	color: white;
+	border: 1px solid white;
+	font-size: 19px;
+	margin-top: 10px;
+	margin-bottom: 270px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+}
+
+.rankCreation-page a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.rankCreation-page .btn-add {
+	background-color: #E2826F;
+	box-shadow: 0px 3.39761px 8.49402px rgba(21, 87, 88, 0.5);
+	max-width: 65%;
+	color: white;
+	padding: 5px 0 5px 20px;
+	border-radius: 10px;
+	border: none;
+	font-family: 'Helvetica';
+	font-size: 16px;
+	text-align: left;
+}
+
+.rankCreation-page .btn-import {
+	background-color: #FFFFFF;
+	opacity: .4;
+	box-shadow: 2px 2px 6px rgba(21, 85, 86, 0.5);
+	border: none;
+	border-radius: 10px;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	padding: 10px 15px 10px 15px;
+	border: none;
+	font-size: 18px;
+}
+
+
+.rankCreation-page .col-txt {
+	margin-top: 30px;
+}
+
+.rankCreation-page .col-txt p {
+	margin-top: 30px;
+}
+
+.rankCreation-page button:focus {
+    outline: none;
+}
+
+@media (max-width: 576px) {
+	.rankCreation-page {
+		background-image: url('../Images/categories/bg-lg-2.svg');
+	}
+
+	.rankCreation-page .options {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+
+	.rankCreation-page .img-hero {
+		position: absolute;
+		margin-top: -200px;
+		right: -150px;
+		z-index: -3;
+	}
+
+	.rankCreation-page .inner-content h2 {
+		color: #154A4E;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		margin-top: -20px;
+		opacity: .9;
+		font-size: 18px;
+		line-height: 22px;
+		letter-spacing: 1.06824px;
+		color: #154A4E;
+		mix-blend-mode: normal;
+		opacity: 0.75;
+	}
+
+	.rankCreation-page .hero h3 {
+		font-size: 36px;
+		margin-top: 30px;
+		z-index: 1;
+	}
+
+	.rankCreation-page .hero p {
+		font-family: 'Helvetica', sans-serif;
+		font-size: 20px;
+		font-weight: 400;
+		opacity: .7;
+		z-index: 1;
+		margin-top: 20px;
+	}
+
+	.rankCreation-page .input-search {
+		margin-top: 60px;
+	}
+
+	.rankCreation-page .why-ranked {
+		margin-top: 150px;
+	}
+
+	.rankCreation-page h2.header-text, .rankCreation-page h2.header-text-blue {
+		font-size: 35px;
+	}
+
+	.rankCreation-page .inner-content .container {
+		/*background-image: url('../Images/rank-creation/inner-bg-sm.png');
+		background-size: cover;
+		background-repeat: no-repeat;*/
+		/*background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.377568), rgba(255, 255, 255, 0.0001));*/
+		background: linear-gradient(#FFFFFF 0%, rgba(255, 255, 255, 0.0001) 96.1%);
+		margin-top: -50px;
+	}
+
+	.rankCreation-page .btn-login {
+		font-family: "Montserrat", sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 13.236px;
+		line-height: 16px;
+		text-align: center;
+
+		color: #FFFFFF;
+		padding: 7px 25px;
+		background-image: linear-gradient(to top, #AD3C3B, #F18B6D);
+		border: 1px solid white;
+		margin-top: 150px;
+		margin-bottom: 35px;
+		box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+	}
+
+	.rankCreation-page .btn-add {
+		background-color: #E2826F;
+		box-shadow: 0px 3.39761px 8.49402px rgba(21, 87, 88, 0.5);
+		max-width: 80%;
+		color: white;
+		padding: 5px 0 5px 20px;
+		border-radius: 10px;
+		border: none;
+		font-family: 'Helvetica';
+		font-size: 16px;
+		text-align: left;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+	.rankCreation-page .btn-login {
+		margin-top: 50px;
+	}
+}
+
+.txt-title-sm {
+	position: absolute;
+	top: 300px;
+
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px !important;
+	line-height: 19px;
+
+	text-align: center;
+	letter-spacing: 0.907362px;
+
+	color: #FFFFFF;
+
+	mix-blend-mode: normal;
+	opacity: 0.75;
+}
+
+.recom-sm {
+	position: fixed;
+	/* display: none; */
+	min-height: 100px;
+	height: 350px;
+	z-index: 999;
+	top: 75px;
+	width: 180px;
+	right: 0;
+	overflow-y: scroll;
+	padding-bottom: 30px;
+	overflow-y: scroll;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(21, 87, 88, 0.5);
+	border-radius: 20px 0px 0px 20px;
+}
+
+.recom-sm.non {
+	display: none;
+}
+
+.recom-sm.active {
+	display: block;
+}
+
+@media screen and (min-width: 768px) {
+	.recom-sm, .absol-btn-group {
+		display: none;
+	}
+}
+
+.recom-sm h5 {
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px !important;
+	line-height: 22px;
+	/* identical to box height */
+
+	letter-spacing: 1.06824px;
+
+	color: #154A4E;
+
+	mix-blend-mode: normal;
+	opacity: 0.75;
+	text-align: center;
+}
+
+.rankCreation-page .col-movie {
+	background: linear-gradient(180deg, #15484D 0%, #329A90 52.94%, rgba(103, 198, 189, 0.05) 77.94%, rgba(167, 215, 211, 0.0001) 94.62%);
+	border-radius: 20px 20px 0  0;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	max-width: 95%;
+}
+
+.rankCreation-page .movie-title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15.2892px;
+	line-height: 19px;
+	/* identical to box height */
+
+	text-align: center;
+	letter-spacing: 0.907362px;
+
+	color: #FFFFFF;
+
+	mix-blend-mode: normal;
+	opacity: 0.75;
+
+	margin-bottom: 20px;
+}
+
+.absol-btn-group {
+	position: fixed;
+	bottom: 15px;
+	right: 30px;
+	z-index: 99999;
+}
+
+.absol-btn-group .btn-open-recom {
+	background-color: #298C82;
+	color: white;
+	border: none !important;
+	outline: none !important;
+	border-radius: 50%;
+	font-size: 26px;
+	width: 40px;
+	height: 40px;
+}
+
+.rankCreation-page .row-info {
+	position: relative;
+}
+
+.rankCreation-page .row-info .info-popup {
+	background: #EAF8F8;
+	box-shadow: 0px 3px 10px 1px rgba(21, 87, 88, 1);
+	border-radius: 23px;
+	position: absolute;
+	z-index: 999;
+	padding: 30px 40px;
+	max-width: 350px;
+	top: 50px;
+	right: 35px;
+	/* display: flex; */
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.rankCreation-page .row-info .info-popup h3 {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1.18693px;
+
+	color: #154A4E;
+
+	mix-blend-mode: normal;
+	opacity: 0.75;
+}
+
+.rankCreation-page .row-info .info-popup p {
+	font-family: "Helvetica";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 17px;
+	text-align: center;
+	letter-spacing: 0.327321px;
+	margin-top: 25px;
+	color: #154A4E;
+
+	mix-blend-mode: normal;
+	opacity: 0.9;
+}
+
+.rankCreation-page .row-info .info-popup .btn-close-info {
+	background-image: url('../Images/postpreview/btn-close.svg');
+	background-size: 30px 30px !important;
+	position: absolute;
+	top: 10px;
+	right: 8px;
+	height: 30px;
+	width: 30px;	
+	background-color: transparent !important;
+	border: none !important;
+	outline: none !important;
+	border-radius: 50%;
+	position: absolute;
+}
+.rankCreation-page .popup {
+	position: absolute;
+	bottom: 150px !important;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	height: 100vh !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.rankCreation-page .popup-content {
+	width: 450px;
+	height: 240px;
+	z-index: 10000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #EAF8F8;
+	box-shadow: 11px 13px 28px 3px rgba(34, 56, 56, 0.66);
+	border-radius: 23px;
+}
+
+.rankCreation-page .popup-content h4 {
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	letter-spacing: 1.18693px;
+
+	color: #154A4E;
+
+	opacity: 0.75;
+	margin-top: -10px;
+}
+
+.rankCreation-page .popup-content h5 {
+	margin-top: 30px;
+	font-family: "Helvetica";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+
+	text-align: center;
+	letter-spacing: 0.327321px;
+
+	color: #154A4E;
+
+	mix-blend-mode: normal;
+	opacity: 0.7;
+}
+
+.rankCreation-page .popup-content .btn-popup {
+	background-image: linear-gradient(to top, #AD3C3B, #F18B6D);
+	border-radius: 35px;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	padding: 10px 65px 10px 65px;
+	color: white;
+	border: 1px solid white;
+	font-size: 19px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+	margin-top: 40px;
+}
+
+.rankCreation-page .popup-content .btn-close {
+	position: absolute;
+
+	top: -17px;
+	right: -200px;
+
+	border-radius: 50%;
+	/*background-color: rgba(255, 255, 255, 0.4);*/
+	background-image: url('../Images/postpreview/btn-close.svg');
+	background-size: 30px 30px !important;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	display: flex;
+	z-index: 10001;
+	position: relative;
+	justify-content: center;
+}
+
+
+@media (min-width: 380px) and (max-width: 440px) {
+	.rankCreation-page .popup-content .btn-close {
+		position: absolute;
+		top: -17px;
+		right: -170px;
+	}
+} 
+@media (min-width: 270px) and (max-width: 380px) {
+	.rankCreation-page .popup-content .btn-close {
+		position: absolute;
+		top: -17px !important;
+		right: -140px !important;
+
+	}
+} 

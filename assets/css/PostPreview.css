@@ -1,0 +1,672 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, .postPreview-page, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.postPreview-page {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS AutoReset */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+html, .postPreview-page {
+	overflow-x: hidden;
+}
+
+.postPreview-page::-webkit-scrollbar {
+  display: none;
+}
+
+.postPreview-page {
+	font-family: 'Montserrat', sans-serif;
+	/*background-image: linear-gradient(to top, #F7F3F3, #157E75, #85CDC0, #E2F7F0, #E2F7F0, #15484D);*/
+	background-image: url('../Images/categories/bg-lg-2.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+.postPreview-page .navbar .nav-link {
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.postPreview-page .options .option-lk {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	opacity: .7;
+	margin-bottom: -30px !important;
+	margin-top: 60px !important;
+}
+
+.postPreview-page .options .option-lk:hover {
+	color: white;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.postPreview-page .options-two .option-lk {
+}
+
+
+.postPreview-page .inner-content .container {
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+	border-radius: 30px 30px 0 0;
+}
+
+.postPreview-page .inner-bg h2 {
+	color: #154A4E;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	opacity: .8;
+	margin-top: -10px;
+}
+
+.postPreview-page .inner-content p {
+	color: #154A4E;
+	font-family: 'Helvetica';
+	font-size: 18px;
+	font-weight: lighter;
+	max-width: 60%;
+	text-align: center;
+}
+
+.postPreview-page .inner-bg p.desc-p {
+	color: #154A4E;
+	font-family: 'Helvetica';
+	opacity: .5;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 25px !important;
+	max-width: 65%;
+	text-align: center;
+}
+
+.postPreview-page .col-movie {
+	background-color: #101010;
+	border-radius: 20px;
+	margin: 50px 0; 
+	padding: 20px 10px;
+}
+
+.postPreview-page .col-movie h4 {
+	color: white;
+	opacity: .9;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.postPreview-page .col-card {
+	margin: 0 10px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 10px;
+}
+
+.postPreview-page .col-card .card {
+	background-color: #354040;
+	color: white;
+	height: 195px !important;
+	border-radius: 0;
+	width: 140px;
+}
+
+.postPreview-page .col-card .card-img-top {
+	height: 160px;
+}
+
+.postPreview-page .col-card .card-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.postPreview-page .col-card h5 {
+	text-align: center;
+	font-family: 'Helvetica';
+	font-size: 14px;
+	font-weight: lighter;
+	width: 120px;
+	margin-top:0px;
+	text-align: center;
+}
+
+.postPreview-page .col-card p.card-text {
+	font-family: 'Helvetica';
+	font-size: 10px;
+	font-weight: lighter;
+	color: white;
+	min-width: 100px;
+	text-align: center;
+	margin-top: -12px;
+}
+
+.postPreview-page .col-card .txt-identifier {
+	color: white;
+	opacity: .7;
+	font-family: 'Helvetica';
+	font-weight: lighter;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.postPreview-page .btn-post {
+	background-image: linear-gradient(to top, #AD3C3B, #F18B6D);
+	border-radius: 35px;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	padding: 10px 50px 10px 50px;
+	color: white;
+	border: 1px solid white;
+	font-size: 19px;
+	margin-top: 55px;
+	margin-bottom: 20px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+}
+
+.postPreview-page .btn-close {
+	border-radius: 50%;
+	/*background-color: rgba(255, 255, 255, 0.4);*/
+	background-image: url('../Images/postpreview/btn-close.svg');
+	background-size: 30px 30px !important;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px !important;
+}
+
+.postPreview-page .row-fav {
+	margin-top: -60px;
+}
+
+.postPreview-page .inner-bg .container {
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.377568), rgba(255, 255, 255, 0.0001));
+	border-radius: 30px 30px 0 0;
+	margin-top: 100px;
+	position: relative;
+}
+
+.postPreview-page .inner-bg h3 {
+	font-family: 'Monstserrat', sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 80px;
+}
+
+.postPreview-page .inner-bg p {
+	font-family: 'Helvetica';
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.postPreview-page .row-movie {
+	background-color: #298C82;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.postPreview-page .row-movie .img-logo {
+	width: 270px;
+}
+
+.postPreview-page .row-movie h4 {
+	font-family: 'Monstserrat', sans-serif;
+	font-size: 24px;
+	opacity: .7;
+	color: white;
+	text-align: center;
+}
+
+.postPreview-page .row-movie-gif {
+	background-color: #298C82;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-width: 1000px !important;
+	padding-bottom: 30px;
+}
+
+.postPreview-page .row-movie-gif .img-logo {
+	width: 270px;
+}
+
+.postPreview-page .row-movie-gif h4 {
+	font-family: 'Monstserrat', sans-serif;
+	font-size: 24px;
+	opacity: .7;
+	color: white;
+	text-align: center;
+}
+
+.postPreview-page .logo-group {
+	margin-bottom: 200px;
+}
+
+@media (max-width: 380px) {
+	.postPreview-page {
+		background-image: url('../Images/profile/bg-usual.png');
+	}
+
+	.postPreview-page .inner-content {
+		/*margin-top: 40px !important;*/
+	}
+
+	.postPreview-page .inner-bg {
+		background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+		border-radius: 30px 30px 0 0;
+		margin-top: 40px !important;
+	}
+
+	.postPreview-page .inner-bg .txt-green {
+		color: #154A4E;
+		text-align: center;
+	}
+
+	.postPreview-page .col-card {
+		margin: 0 4px;
+		margin-top: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.postPreview-page .col-card .card {
+		background-color: #354040;
+		color: white;
+		height: 65px !important;
+		width: 50px !important;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.postPreview-page .col-card .card-img-top {
+		height: 55px !important;
+		width: 50px !important;
+	}
+
+	.postPreview-page .col-card .card-body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.postPreview-page .col-card h5 {
+		text-align: center;
+		font-family: 'Helvetica';
+		font-size: 7px;
+		font-weight: lighter;
+		min-width: 50px;
+		margin-top: -16px;
+	}
+
+	.postPreview-page .col-card p {
+		font-family: 'Helvetica';
+		font-size: 10px;
+		font-weight: lighter;
+		color: white;
+		min-width: 100px;
+		text-align: center;
+	}
+
+	.postPreview-page .col-card .txt-identifier {
+		color: white;
+		opacity: .7;
+		font-family: 'Helvetica';
+		font-weight: lighter;
+		font-size: 20px;
+		margin-top: 10px;
+	}
+
+}
+
+@media (min-width: 380px) and (max-width: 576px) {
+	.postPreview-page {
+		background-image: url('../Images/profile/bg-usual.png');
+	}
+
+	.postPreview-page .inner-content {
+		margin-top: 20px;
+	}
+
+	.postPreview-page .inner-bg {
+		background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+		border-radius: 30px 30px 0 0;
+	}
+
+	.postPreview-page .inner-bg .txt-green {
+		color: #154A4E;
+		text-align: center;
+	}
+
+	.postPreview-page .col-card {
+		margin: 0 4px;
+		margin-top: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.postPreview-page .col-card .card {
+		background-color: #354040;
+		color: white;
+		height: 93px !important;
+		width: 70px !important;
+		border-radius: 10px 10px 0 0;
+	}
+
+	.postPreview-page .col-card .card-img-top {
+		height: 75px !important;
+		width: 70px !important;
+	}
+
+	.postPreview-page .col-card .card-body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.postPreview-page .col-card h5 {
+		text-align: center;
+		font-family: 'Helvetica';
+		font-size: 10px;
+		font-weight: lighter;
+		min-width: 50px;
+		margin-top: -10px;
+	}
+
+	.postPreview-page .col-card p {
+		font-family: 'Helvetica';
+		font-size: 10px;
+		font-weight: lighter;
+		color: white;
+		min-width: 100px;
+		text-align: center;
+	}
+
+	.postPreview-page .col-card .txt-identifier {
+		color: white;
+		opacity: .7;
+		font-family: 'Helvetica';
+		font-weight: lighter;
+		font-size: 20px;
+		margin-top: 10px;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+	.postPreview-page .inner-bg .txt-green {
+		margin-top: 20px;
+		text-align: center;
+		opacity: .7;
+	}
+
+	.postPreview-page .col-card {
+		margin: 0 4px;
+		margin-top: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding-bottom: 10px;
+	}
+
+	.postPreview-page .col-card .card {
+		background-color: #354040;
+		color: white;
+		height: 145px !important;
+		width: 100px !important;
+		border-radius: 0;
+	}
+
+	.postPreview-page .col-card .card-img-top {
+		height: 125px !important;
+		width: 100px !important;
+	}
+
+	.postPreview-page .col-card .card-body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.postPreview-page .col-card h5 {
+		text-align: center;
+		font-family: 'Helvetica';
+		font-size: 13px;
+		font-weight: lighter;
+		min-width: 50px;
+		margin-top: -5px !important;
+	}
+
+	.postPreview-page .col-card p {
+		font-family: 'Helvetica';
+		font-size: 10px;
+		font-weight: lighter;
+		color: white;
+		min-width: 100px;
+		text-align: center;
+		margin-top: -10px;
+	}
+}
+
+.postPreview-page .tab-btn {
+	border-radius: 30px !important;
+	background-color: #50B4A2;
+	color: white !important;
+	box-shadow: -1px 1px 2px rgba(80, 149, 137, 0.2), 1px -1px 2px rgba(80, 149, 137, 0.2), -1px -1px 2px rgba(133, 249, 229, 0.9), 1px 1px 3px rgba(80, 149, 137, 0.9), inset 1px 1px 2px rgba(133, 249, 229, 0.3), inset -1px -1px 2px rgba(80, 149, 137, 0.5);
+
+
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: 0.266667px;
+}
+
+.postPreview-page .tab-btn.active {
+	border-radius: 30px;
+	color: white !important;
+
+	background-color: #6AC7B7 !important;
+	box-shadow: 1px 1px 2px rgba(133, 249, 229, 0.3), -1px -1px 2px rgba(80, 149, 137, 0.5), inset -1px 1px 2px rgba(80, 149, 137, 0.2), inset 1px -1px 2px rgba(80, 149, 137, 0.2), inset -1px -1px 2px rgba(133, 249, 229, 0.9), inset 1px 1px 3px rgba(80, 149, 137, 0.9);
+
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: 0.266667px;
+}
+
+.postPreview-page .row-gif {
+	background-color: #101010;
+	height: 600px;
+	width: 800px;
+	border-radius: 20px;
+	margin: 50px 0;
+}
+
+@media screen and (max-width: 576px) {
+	.postPreview-page .inner-bg h3 {
+		font-family: 'Monstserrat', sans-serif;
+		font-size: 22px;
+		font-weight: bold;
+		margin-top: 30px !important;
+	}
+
+	.postPreview-page .inner-bg {
+		background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+		border-radius: 30px 30px 0 0;
+		margin-top: 15px !important;
+	}
+
+
+	.postPreview-page .txt-green {
+		font-family: "Helvetica";
+		margin-top: 10px;
+		width: 80%;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		text-align: center;
+		letter-spacing: 0.327321px;
+
+		color: #154A4E;
+
+		mix-blend-mode: normal;
+		opacity: 0.7;
+	}
+
+	.postPreview-page p.txt-green {
+		margin-bottom: -20px;
+	}
+
+	.postPreview-page .row-movie h4, .postPreview-page .row-gif h4 {
+		font-family: "Montserrat", sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		/* identical to box height */
+		margin-top: -20px;
+		letter-spacing: 1.06824px;
+
+		color: #FFFFFF;
+
+		mix-blend-mode: normal;
+		opacity: 0.75;
+	}
+
+	.postPreview-page .txt-identifier {
+		font-family: "Helvetica";
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px !important;
+		line-height: 22px;
+		letter-spacing: 0.266667px;
+		margin-top: -7px;
+		color: #FFFFFF;
+
+		mix-blend-mode: normal;
+		opacity: 0.6;
+	}
+
+	.postPreview-page .nav-for-sm .nav-link {
+		font-size: 14.1379px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.postPreview-page .inner-bg {
+		background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+		border-radius: 30px 30px 0 0;
+		margin-top: 40px !important;
+	}
+}
+
+.postPreview-page .row-gif h4 {
+	color: white;
+	opacity: .9;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: -55px;
+}
+
+
+@media screen and (max-width: 991px) {
+	.postPreview-page .row-gif {
+		background-color: #298C82;
+		height: 600px;
+		width: 100% !important;
+		border-radius: none !important;
+	}
+
+	.postPreview-page .options, .postPreview-page .options-two {
+		display: flex !important;
+	}
+}
+
+#pills-tab {
+	margin-top: 30px;
+}
+
+.postPreview-page .options {
+	margin-top: -30px;
+	margin-bottom: -10px;
+}
+
+.postPreview-page .options-two {
+	margin-top: 13px;
+	margin-bottom: -25px;
+}

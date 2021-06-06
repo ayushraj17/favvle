@@ -1,0 +1,570 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, .signupPart-page, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.signupPart-page {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS AutoReset */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+html, .signupPart-page {
+	overflow-x: hidden;
+}
+
+.signupPart-page::-webkit-scrollbar {
+  display: none;
+}
+
+div::-webkit-scrollbar {
+  display: none;
+}
+
+.signupPart-page {
+	font-family: 'Montserrat', sans-serif;
+	/*background-image: linear-gradient(to top, #F7F3F3, #157E75, #85CDC0, #E2F7F0, #E2F7F0, #15484D);*/
+	background-image: url('../Images/categories/bg-lg-2.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	position: relative;
+	z-index: 1;
+}
+
+.signupPart-page .navbar .nav-link {
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.signupPart-page .img-logo {
+	margin-left: -80px;
+}
+
+.signupPart-page .options {
+	height: 100px;
+}
+
+.signupPart-page .option-link {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	opacity: .7;
+}
+
+.signupPart-page .option-link:hover {
+	color: white;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.signupPart-page .hero {
+	display: flex;
+}
+
+.signupPart-page .hero h3 {
+	font-weight: 600;
+	font-size: 26px;
+	margin-top: 70px !important;
+}
+
+.signupPart-page .hero ul {
+	margin-top: 40px;
+}
+
+.signupPart-page .hero p, .signupPart-page .hero li {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: white;
+	margin-top: 20px;
+}
+
+.signupPart-page .hero li {
+	margin-left: -22px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.signupPart-page .hero li img {
+	margin-right: 13px;
+}
+
+.signupPart-page .col-left {
+	z-index: 1;
+	padding-left: 100px;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	height: 150vh;
+}
+
+.signupPart-page .col-left img {
+	padding-left: none !important;
+}
+
+.signupPart-page .col-left p {
+	max-width: 500px;
+}
+
+.signupPart-page .col-left .bg-signup {
+	/*margin-left: -200px;*/
+	z-index: -1;
+}
+
+.signupPart-page .col-right {
+	color: black;
+	font-family: 'Helvetica';
+	font-size: 18px;
+	font-weight: bold;
+	background-image: url('../Images/login/bg-signup.png');
+	background-size: cover;
+
+	/*background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));*/
+	border-radius: 0px 30px 30px 0;
+
+	min-height: 100vh;
+	z-index: 1;
+	position: relative;
+}
+
+.signupPart-page .col-right > .row > .col > * {
+	margin-top: 30px;
+}
+
+.signupPart-page .row-login h4, .signupPart-page .row-login h6, .signupPart-page .row-login p {
+	color: #154D50 !important;
+	font-family: lighter;
+	font-family: 'Helvetica';
+}
+
+.signupPart-page .row-login h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 26px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	opacity: .7;
+	margin-top: 140px !important;
+	margin-bottom: 14px !important;
+}
+
+.signupPart-page .row-login h6 {
+	font-family: 'Helvetica';
+	font-size: 22px;
+	opacity: .7;
+	font-weight: 400;
+}
+
+.signupPart-page .row-login p {
+	font-family: 'Helvetica';
+	font-size: 15px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.signupPart-page .btn-oauth {
+	font-size: 15px;
+	border-radius: 33px;
+	font-family: 'Helvetica';
+	font-weight: lighter;
+}
+
+.signupPart-page .btn-oauth.google {
+	padding: 3px 57px 3px 43px;
+	margin-left: -3px;
+}
+
+.signupPart-page .btn-oauth.facebook {
+	padding: 1px 35px 1px 35px;
+}
+
+.signupPart-page .input-login:focus {
+	outline: none;
+} 
+
+.signupPart-page .input-login {
+	width: 60%;
+	border: none;
+	border-radius: 6px;
+	padding: 9px 10px;
+}
+
+.signupPart-page .input-login:focus {
+	outline: none;
+} 
+
+.signupPart-page .input-login.dob {
+	padding: 4px 6px;
+	width: 24%;
+	margin-right: 10px;
+	font-size: 16px;
+	font-family: 'Helvetica';
+	color: #A6A6A6;
+}
+
+.signupPart-page label {
+	font-family: 'Helvetica';
+	font-weight: lighter;
+	font-size: 16px;
+	width: 100% !important;
+	opacity: .5;
+}
+
+.signupPart-page #div-dob, .signupPart-page #div-gender {
+	margin-top: 70px;
+	flex-direction: row;
+}
+
+.signupPart-page #div-gender {
+	display: flex !!important;
+	flex-direction: row !important;
+	justify-content: center;
+	align-items: center !important;
+	margin-top: 20px !important;
+}
+
+.signupPart-page .custom-select {
+	width: 100%;
+	margin-right: 20px !important;
+}
+
+.signupPart-page .row-absol {
+	position: relative;
+}
+
+.signupPart-page .row-absol .one {
+	position: absolute; 
+	top: -83px;
+	right: 22px;
+}
+
+.signupPart-page .row-absol .two {
+	position: absolute; 
+	top: -23px;
+	right: 22px;
+}
+
+.signupPart-page .btn-login {
+	background-image: linear-gradient(to top, #AD3C3B, #F18B6D);
+	border-radius: 35px;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	padding: 10px 50px 10px 50px;
+	color: white;
+	border: 1px solid white;
+	font-size: 19px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+	margin-top: 30px !important;
+}
+
+.signupPart-page .btn-import {
+	padding: 10px 42px 10px 42px;
+	background-color: transparent;
+	border-radius: 35px;
+	border: 2px solid white;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 19px;
+	margin-left: -2px !important;
+	margin-top: 13px !important;
+	color: white;
+	box-sizing: border-box;
+}
+
+.signupPart-page .link-login {
+	color: #154A4E;
+	font-family: 'Helvetica';
+	font-weight: lighter;
+	font-size: 16px;
+	transition: all 1s;
+	margin-top: 70px;
+}
+
+.signupPart-page .link-login:hover {
+	text-decoration: none;
+	color: #23887E;
+}
+
+.signupPart-page .hr-salmon {
+	border: 1px solid #E9745D;
+	width: 130px;
+	position: absolute;
+	right: 15px;
+}
+
+.signupPart-page .hr-salmon-lg {
+	border: 1px solid #E9745D;
+	width: 200px;
+	position: absolute;
+	left: 150px;
+}
+
+.signupPart-page button:focus {
+    outline: none;
+}
+
+.signupPart-page .img-one {
+	z-index: -2;
+	margin-top: 59px;
+	margin-left: -20px;
+	height: 300px;
+	width: 500px;
+}
+
+.signupPart-page .input-login {
+	width: 48%;
+	border: none;
+	border-radius: 6px;
+	padding: 6px 10px;
+	font-family: 'Helvetica';
+	font-size: 16px;
+	color: black;
+}
+
+.signupPart-page .input-login:focus {
+	outline: none;
+} 
+
+.signupPart-page .row-login h5 {
+	font-family: 'Helvetica';
+	font-size: 22px;
+	font-weight: lighter;
+	color: #154A4E;
+	opacity: .7;
+	margin-top: 150px !important;
+}
+
+.signupPart-page .row-login span {
+	font-family: 'Helvetica';
+	font-size: 14px;
+	font-weight: lighter;
+	color: #154A4E;
+	width: 450px;
+	opacity: .7;
+	text-align: center;
+	margin-top: 4px !important;
+}
+
+@media (max-width: 576px) {
+	.signupPart-page {
+		background-image: url('../Images/login/bg-std.png');
+	}
+
+	.signupPart-page .img-hero {
+		position: absolute;
+		margin-top: -200px;
+		left: -150px;
+		top: 200px;
+		z-index: -3;
+		opacity: .6;
+	}
+
+	.signupPart-page .input-login {
+		width: 70%;
+	} 
+
+	.signupPart-page .hero h3 {
+		font-size: 36px;
+		margin-top: 30px;
+		z-index: 1;
+	}
+
+	.signupPart-page .hero p {
+		font-family: 'Helvetica', sans-serif;
+		font-size: 20px;
+		font-weight: 400;
+		opacity: .7;
+		z-index: 1;
+		margin-top: 20px;
+	}
+
+	.signupPart-page .col-right {
+		color: black;
+		font-family: 'Helvetica';
+		font-size: 18px;
+		font-weight: bold;
+		background-image: url('../Images/login/bg-bottom-std.png');
+		background-size: cover;
+		min-height: 100vh;
+		max-height: 120vh;
+		margin-top: 50px;
+		position: absolute;
+		bottom: -100px;
+		left: 0;
+		right: 0;
+		overflow-x: hidden;
+	}
+
+	.signupPart-page .col-right > .row > .col > * {
+		margin-top: 15px;
+	}
+
+	.signupPart-page .hr-salmon {
+		border: 1px solid #E9745D;
+		width: 130px;
+		position: absolute;
+		right: 50px;
+	}
+
+	.signupPart-page .hr-salmon-lg {
+		border: 1px solid #E9745D;
+		width: 200px;
+		position: absolute;
+		left: 90px;
+	}
+
+	.signupPart-page .row-absol .one {
+		position: absolute; 
+		top: -70px;
+		right: -15px;
+	}
+
+	.signupPart-page .row-absol .two {
+		position: absolute; 
+		top: -23px;
+		right: -15px;
+	}
+
+	.signupPart-page .btn-login {
+		padding: 3px 30px 3px 30px;
+	}
+
+	.signupPart-page .btn-import {
+		padding: 3px 24px 3px 24px;
+	} 
+
+	.signupPart-page .link-login {
+		margin-top: 70px !important;
+	}
+
+	.signupPart-page .input-login {
+		width: 60%;
+		border: none;
+		border-radius: 6px;
+		padding: 9px 10px;
+	}
+
+	.signupPart-page .input-login:focus {
+		outline: none;
+	} 
+
+	.signupPart-page .custom-select {
+		max-width: 60%;
+		/*margin-right: 300px;*/
+	}
+
+	.signupPart-page .dob-group {
+		margin-right: 0px;
+		display: flex;
+		justify-content: center;
+		margin-top: 15px;
+	}
+
+	.signupPart-page .input-login.dob {
+		padding: 4px 6px;
+		font-size: 16px;
+		font-family: 'Helvetica';
+		color: #A6A6A6;
+	}
+
+	.signupPart-page label {
+		text-align: center;
+	}
+
+	.signupPart-page #div-dob, .signupPart-page #div-gender {
+		margin-top: 70px;
+		flex-direction: column !important;
+	}
+
+}
+
+@media (min-width: 578px) and (max-width: 992px) {
+	.signupPart-page .bg-login {
+		right: -400px;
+	}
+
+	.signupPart-page .hr-salmon-lg {
+		border: 1px solid #E9745D;
+		width: 200px;
+		position: absolute;
+		left: 100px;
+	}
+
+	.signupPart-page .custom-select {
+		max-width: 60%;
+		/*margin-right: 300px;*/
+	}
+
+	.signupPart-page .dob-group {
+		margin-right: 0px;
+		display: flex;
+		justify-content: center;
+		margin-top: 15px;
+	}
+
+	.signupPart-page .input-login.dob {
+		padding: 4px 6px;
+		font-size: 16px;
+		font-family: 'Helvetica';
+		color: #A6A6A6;
+	}
+
+	.signupPart-page label {
+		text-align: center;
+	}
+
+	.signupPart-page #div-dob, .signupPart-page #div-gender {
+		margin-top: 70px;
+		flex-direction: column !important;
+	}
+
+}
+
+.signupPart-page .line-two {
+	width: 150px !important;
+}

@@ -1,0 +1,43 @@
+/* Components css */
+
+@import "../assets/css/components/CreateRank.css";
+
+@import "../assets/css/components/GetLibraryRanks.css";
+@import "../assets/css/components/GetLibraryRanks.css";
+@import "../assets/css/components/GetLibraryRanks2.css";
+@import "../assets/css/components/GetRanks.css";
+@import "../assets/css/components/Recommendation.css";
+@import "../assets/css/components/Searchbox.css";
+
+/* Css */
+@import "../assets/css/About.css";
+@import "../assets/css/Categories.css";
+@import "../assets/css/Checkout.css";
+@import "../assets/css/Confirmation.css";
+@import "../assets/css/Customization.css";
+@import "../assets/css/Home.css";
+@import "../assets/css/LandingPage.css";
+@import "../assets/css/Library.css";
+@import "../assets/css/Library2.css";
+@import "../assets/css/Login.css";
+@import "../assets/css/Password.css";
+@import "../assets/css/PaymentOption.css";
+@import "../assets/css/PostPreview.css";
+@import "../assets/css/PostPreview2.css";
+@import "../assets/css/Pricing.css";
+@import "../assets/css/Profile.css";
+@import "../assets/css/RankCreation.css";
+@import "../assets/css/RankCreationDetail.css";
+@import "../assets/css/Signup.css";
+@import "../assets/css/Signup2.css";
+@import "../assets/css/SignupPart2.css";
+@import "../assets/css/styles.css";
+@import "../assets/css/Trial.css";
+
+@import "../assets/css/All.css";
+
+.btn-close {
+	height: 28px;
+	width: 28px;
+	border-width: 0;
+}

@@ -1,0 +1,521 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, .profile-page, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, t.profile-page, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.profile-page {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS AutoReset */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+html, .profile-page {
+	overflow-x: hidden;
+}
+
+.profile-page::-webkit-scrollbar {
+  display: none;
+}
+
+.profile-page {
+	font-family: 'Montserrat', sans-serif;
+	/*background-image: linear-gradient(to top, #F7F3F3, #157E75, #85CDC0, #E2F7F0, #E2F7F0, #15484D);*/
+	background-image: url('../Images/profile/bg-lg-2.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+.profile-page .navbar .nav-link {
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.profile-page .nav-link.active {
+	border-bottom: 1px solid #FF8E75;
+	width: 75px;
+	padding-bottom: 5px;
+}
+
+.profile-page .navbar-nav {
+	width: 100% !important;
+}
+
+.profile-page .option-link {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	opacity: .7;
+}
+
+.profile-page .option-link:hover {
+	color: white;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.profile-page .inner-content .container {
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.377568), rgba(255, 255, 255, 0.0001));
+	border-radius: 30px 30px 0 0;
+}
+
+.profile-page .btn-close {
+	border-radius: 50%;
+	/*background-color: rgba(255, 255, 255, 0.4);*/
+	background-image: url('../Images/postpreview/btn-close.svg');
+	background-size: 30px 30px !important;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px !important;
+}
+
+.profile-page .col-image {
+	position: relative;
+}
+
+.profile-page .absol-border {
+	width: 235px;
+	height: 235px;
+	border: 3px solid rgba(76, 147, 145, .5);
+	border-radius: 50%;
+	position: absolute;
+	bottom: -17px;
+}
+
+.profile-page .icon-up {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.profile-page .inner-content h2 {
+	font-family: 'Montserrat', sans-serif;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	letter-spacing: 0.5px;
+
+	color: #154A4E;
+
+	mix-blend-mode: normal;
+	opacity: 0.75;
+}
+
+.profile-page .inner-content p {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+
+	text-align: center;
+	letter-spacing: 0.3px;
+
+	color: #154D50;
+
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+
+.profile-page .card-sm {
+	background-color: white;
+	border-radius: 30px;
+	padding: 10px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.profile-page .card-sm.lg {
+	padding: 40px;
+
+}
+
+.profile-page .card-sm h4 {
+	color: #636363;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.profile-page .card-sm h3 {
+	color: #636363;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+.profile-page .ls-group {
+	margin-bottom: 150px;
+}
+
+.profile-page .list {
+	display: flex;
+	align-items: center;
+	font-family: 'Helvetica';
+	font-size: 16px;
+	font-weight: lighter;
+	margin-top: 40px;
+}
+
+.profile-page .list img {
+	margin-right: 10px;
+}
+
+.profile-page .image-person {
+	width: 200px;
+	height: 200px;
+	margin-top: -15px;
+}
+
+.profile-page .btn-login {
+	border: none;
+	margin-left: 10px;
+	margin-top: 5px;
+
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 0.240468px;
+	padding: 7px 22px;
+	position: relative;
+
+	background: rgba(255, 255, 255, 0.4);
+	box-shadow: inset -1.6988px -1.6988px 30px rgba(21, 87, 88, 0.5);
+	border-radius: 20px;
+}
+
+.profile-page .input-g {
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-top: 55px;
+}
+
+
+.profile-page .input-g.g-name {
+	margin-top: 0px;
+}
+
+
+.profile-page .input-g label, .profile-page .change-plan label {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+	letter-spacing: 0.354119px;
+	color: #154A4E;
+	mix-blend-mode: normal;
+	opacity: 0.7;
+}
+
+.profile-page .input-g input {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(21, 87, 88, 0.5);
+	border-radius: 5px;
+
+	border: none;
+	padding: 5px;
+	font-size: 26px;
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	/* identical to box height */
+
+	letter-spacing: 0.42px;
+
+	color: #636363;
+
+	margin-top: 10px;
+}
+
+.profile-page .input-profile {
+	width: 550px !important;
+}
+
+.profile-page .btn-plans {
+	background-image: linear-gradient(to top, #AD3C3B, #F18B6D);
+	border-radius: 35px;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	padding: 10px 65px 10px 65px;
+	color: white;
+	border: 1px solid white;
+	font-size: 19px;
+	margin: 70px 0 150px 0;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+}
+
+.profile-page .btn-save-two {
+	background-image: linear-gradient(to top, #AD3C3B, #F18B6D);
+	border-radius: 35px;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	padding: 10px 65px 10px 65px;
+	color: white;
+	border: 1px solid white;
+	font-size: 19px;
+	margin: 10px 0 40px 0;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+}
+
+.profile-page .change-plan {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile-page .change-plan p {
+	min-width: 100%;
+}
+
+.profile-page .input-g input:focus {
+	outline: none;
+}
+
+.profile-page button:focus {
+    outline: none;
+}
+
+@media (max-width: 576px) {
+	.profile-page {
+		background-image: url('../Images/profile/bg-usual.png');
+	}
+
+	.profile-page .inner-content {
+		margin-top: 20px;
+	}
+
+	.profile-page .img-hero {
+		position: absolute;
+		margin-top: -200px;
+		right: -150px;
+		z-index: -3;
+	}
+
+	.profile-page .hero h3 {
+		font-size: 36px;
+		margin-top: 30px;
+		z-index: 1;
+	}
+
+	.profile-page .hero p {
+		font-family: 'Helvetica', sans-serif;
+		font-size: 20px;
+		font-weight: 400;
+		opacity: .7;
+		z-index: 1;
+		margin-top: 20px;
+	}
+
+	.profile-page .input-search {
+		margin-top: 60px;
+	}
+
+	.profile-page .why-ranked {
+		margin-top: 150px;
+	}
+
+	.profile-page h2.header-text, .profile-page h2.header-text-blue {
+		font-size: 35px;
+	}
+
+	.profile-page .col-right {
+		color: black;
+		font-family: 'Helvetica';
+		font-size: 18px;
+		font-weight: bold;
+		background-image: url('../Images/login/bg-bottom-std.png');
+		background-size: cover;
+		min-height: 100vh;
+		max-height: 120vh;
+		margin-top: 50px;
+		position: absolute;
+		bottom: -100px;
+		left: 0;
+		right: 0;
+	}
+
+}
+
+@media (min-width: 440px) and (max-width: 768px) {
+	.profile-page .input-profile {
+		width: 350px !important;
+	}
+}
+
+.profile-page .row-absol {
+	position: relative;
+	cursor: pointer;
+}
+
+.profile-page .row-absol .one {
+	position: absolute; 
+	top: -275px !important;
+	right: -40px;
+}
+
+.profile-page .row-absol .two {
+	position: absolute; 
+	top: -228px !important;
+	right: -40px;
+}
+
+@media screen and (max-width: 439px) {
+	.profile-page .input-profile {
+		width: 250px !important;
+	}
+}
+
+@media screen and (max-width: 291px) {
+	.profile-page .row-absol .one {
+		position: absolute; 
+		top: -275px !important;
+		right: -30px;
+	}
+
+	.profile-page .row-absol .two {
+		position: absolute; 
+		top: -228px !important;
+		right: -30px;
+	}
+
+}
+
+@media (min-width: 291px) and (max-width: 353px) {
+	.profile-page .row-absol .one {
+		position: absolute; 
+		top: -274px !important;
+		right: -30px;
+	}
+
+	.profile-page .row-absol .two {
+		position: absolute; 
+		top: -228px !important;
+		right: -30px;
+	}
+
+}
+
+@media (min-width: 353px) and (max-width: 440px) {
+	.profile-page .row-absol .one {
+		position: absolute; 
+		top: -275px !important;
+		right: -15px;
+	}
+
+	.profile-page .row-absol .two {
+		position: absolute; 
+		top: -228px !important;
+		right: -15px;
+	}
+
+}
+
+@media (min-width: 440px) and (max-width: 570px) {
+	.profile-page .row-absol .one {
+		position: absolute; 
+		top: -455px;
+		right: -35px;
+	}
+
+	.profile-page .row-absol .two {
+		position: absolute; 
+		top: -405px;
+		right: -35px;
+	}
+}
+
+@media (min-width: 570px) and (max-width: 768px) {
+	.profile-page .row-absol .one {
+		position: absolute; 
+		top: -135px;
+		right: -20px;
+	}
+
+	.profile-page .row-absol .two {
+		position: absolute; 
+		top: -275px;
+		right: -20px;
+	}
+}
+
+.profile-page .col-logo {
+	/*margin-bottom: 200px;*/
+}
+
+.profile-page .btn-close {
+	border-radius: 50%;
+	/*background-color: rgba(255, 255, 255, 0.4);*/
+	background-image: url('../Images/postpreview/btn-close.svg');
+	background-size: 30px 30px !important;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	display: flex;
+	z-index: 999;
+	position: relative;
+	justify-content: center;
+	margin-top: 30px !important;
+	margin-bottom: -50px !important;
+}

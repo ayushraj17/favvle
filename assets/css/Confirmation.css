@@ -1,0 +1,293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, .confirmation-page, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.confirmation-page {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS AutoReset */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+html, .confirmation-page {
+	overflow-x: hidden;
+}
+
+.confirmation-page::-webkit-scrollbar {
+  display: none;
+}
+
+
+.confirmation-page {
+	font-family: 'Montserrat', sans-serif;
+	/*background-image: linear-gradient(to top, #F7F3F3, #157E75, #85CDC0, #E2F7F0, #E2F7F0, #15484D);*/
+	background-image: url('../Images/categories/bg-lg-2.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+.confirmation-page .column-content {
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, rgba(255, 255, 255, 0.676956) 55.94%, rgba(255, 255, 255, 0.377568) 82.37%, rgba(255, 255, 255, 0.0001) 100%);
+	/*background-image: linear-gradient(to bottom, #FFF 0%, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.377568), rgba(255, 255, 255, 0.0001));*/
+}
+
+.confirmation-page .navbar .nav-link {
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.confirmation-page .options {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	opacity: .7;
+}
+
+.confirmation-page .option-link {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	opacity: .7;
+}
+
+.confirmation-page .option-link:hover {
+	color: white;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.confirmation-page .inner-content .container {
+	/*background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));*/
+	border-radius: 30px 30px 30px 30px;
+	min-height: 95vh;
+}
+
+.confirmation-page .inner-content .txt-box {
+	padding: 50px;
+	border-radius: 20px 20px 0 0;
+	/*box-shadow: 0px 3px 2px #156A6C;*/
+	margin-top: 100px;
+}
+
+.confirmation-page .inner-content h3 {
+	color: #636363;
+	opacity: .97;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.confirmation-page .inner-content p {
+	color: #808080;
+	margin-top: 15px;
+	opacity: .9;
+	font-family: 'Helvetica';
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.confirmation-page .inner-content h6 {
+	color: #636363;
+	opacity: .9;
+	font-family: 'Helvetica';
+	font-size: 16px;
+	font-weight: lighter;
+	margin-top: 55px;
+	text-align: center;
+	max-width: 75%;
+	letter-spacing: .3;
+}
+
+.confirmation-page .inner-content .container {
+	min-height: 90vh;
+}
+
+.confirmation-page .btn-login {
+	background-image: linear-gradient(to top, #AD3C3B, #F18B6D);
+	border-radius: 35px;
+	font-weight: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	padding: 4px 42px 4px 42px;
+	color: white;
+	border: 1px solid white;
+	font-size: 19px;
+	margin-top: 55px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+}
+
+button:focus {
+    outline: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+
+.confirmation-page .categories-box .box {
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 6px rgba(21, 85, 86, 0.5);
+	border: none;
+	border-radius: 10px;
+	font-weight: 20px;
+	font-family: 'Helvetica';
+	font-weight: lighter;
+	padding: 20px 40px;
+	border: none;
+	font-size: 22px;
+	margin-top: 50px;
+}
+
+.confirmation-page .categories-box .box.selected {
+	background-color: #298C82;
+	color: #FFF;
+}
+
+.confirmation-page .row-validation {
+	margin-top: 40px;
+}
+
+.confirmation-page footer {
+	margin-top: 120px;
+	margin-bottom: 40px;
+}
+
+.confirmation-page footer p {
+	color: white;
+	font-family: 'Helvetica';
+	font-size: 16px;
+	opacity: .5;
+}
+
+@media (max-width: 576px) {
+	.confirmation-page {
+		background-image: url('../Images/confirmation/bg-sm-2.svg');
+		/*background-color: #7EC6C0 !important;*/
+		/*background-image: linear-gradient(to bottom, #15484D, #F7F3F3*/
+	}
+
+	.confirmation-page .inner-content .container {
+		background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+	}
+
+	.confirmation-page .column-content {
+		background-image: none;
+		/*background-image: linear-gradient(to bottom, #FFF 0%, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.377568), rgba(255, 255, 255, 0.0001));*/
+	}
+
+	.confirmation-page .inner-content .txt-box {
+		padding: 20px 0;
+		border-radius: 20px;
+		box-shadow: none;
+	}
+
+	.confirmation-page .inner-content .bg-white {
+		background-color: transparent !important;
+	}
+
+
+	.confirmation-page .inner-content .txt-box {
+		margin-top: 20px;
+	}
+
+	.confirmation-page .inner-content h3 {
+		max-width: 80%;
+		font-family: "Montserrat", sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		letter-spacing: 1.06824px;
+		color: #154A4E;
+		mix-blend-mode: normal;
+		opacity: 0.75;
+	}
+
+	.confirmation-page .inner-content p, .confirmation-page .inner-content h6 {
+		font-family: "Helvetica";
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		text-align: center;
+		letter-spacing: 0.327321px;
+		color: #154A4E;
+		mix-blend-mode: normal;
+		opacity: 0.7;
+	}
+
+	.confirmation-page .inner-content p {
+		margin-top: 10px;
+		max-width: 90%;
+	}
+
+	.confirmation-page .inner-content h6 {
+		margin-top: 50px;
+		text-align: center;
+		max-width: 95%;
+	}
+
+	.confirmation-page .btn-login {
+		max-width: 90%;
+		margin-top: 80px;
+		margin-bottom: 180px;
+		font-size: 14px;
+		padding: 5px 35px 5px 35px;
+	}
+
+	.confirmation-page footer {
+		margin-top: -80px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+	.confirmation-page footer {
+		margin-top: 120px;
+	}
+}

@@ -1,0 +1,40 @@
+.container-recommendation .card {
+	padding: none;
+	height: 63px;
+	margin-top: 15px;
+	border-radius: 7px !important;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, .7) !important;
+	width: 140px;
+	cursor: grab;
+}
+.container-recommendation .card :active {
+	cursor: grabbing;
+}
+.container-recommendation .card .card-text {
+	margin-top: -15px;
+	margin-left: 8px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	line-height: 12px;
+	font-weight: 500;
+	width: 70px;
+	min-width: 140% !important;
+	letter-spacing: 0.169061px;
+	color: #636363 !important;
+} 
+ 
+.container-recommendation .card-img {
+	min-height: 90px;
+	width: 50px;
+	object-fit: cover;
+	margin-top: -13px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+	.container-recommendation .col-mv {
+		display: block;
+	}
+}
